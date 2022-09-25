@@ -1,0 +1,6 @@
+deb http://archive.ubuntu.com/ubuntu bionic multiverse
+deb http://archive.ubuntu.com/ubuntu bionic-security multiverse
+deb http://archive.ubuntu.com/ubuntu bionic-updates multiverse
+deb http://archive.ubuntu.com/ubuntu bionic universe
+deb http://archive.ubuntu.com/ubuntu bionic-security universe
+deb http://archive.ubuntu.com/ubuntu bionic-updates universe
