@@ -19,7 +19,7 @@ apt-get -f install  -y \
         dbus-x11 xauth xinit x11-xserver-utils xdg-utils \
         tightvncserver novnc python3-websockify python3-pyvirtualdisplay \
         build-essential \
-        xvfb xserver-xephyr fonts-wqy-zenhei python2.7
+        xvfb xserver-xephyr fonts-wqy-zenhei python2.7 libjpeg8-dev zlib1g-dev
 
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
 echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list
