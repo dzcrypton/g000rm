@@ -1,3 +1,7 @@
+#
+# curl https://raw.githubusercontent.com/dzcrypton/g000rm/main/s.sh |bash
+#
+
 curl https://raw.githubusercontent.com/dzcrypton/g000rm/main/apt_update >  /etc/apt/sources.list
 apt-get update && apt-get upgrade -y
 apt-get -f install  -y \
